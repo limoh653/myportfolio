@@ -1,0 +1,8 @@
+.desktopMenu{
+    justify-content: right;
+    display: flex;
+}
+.desktopMenuListItem{
+    margin: 1rem;
+    cursor: pointer;
+}
