@@ -6,3 +6,6 @@
     margin: 1rem;
     cursor: pointer;
 }
+.desktopMenuListItem:hover{
+    color: yellow;
+}

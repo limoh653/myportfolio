@@ -7,10 +7,10 @@ const NavBar = () =>{
     return (
         <nav className="navbar">
             <div className="desktopMenu">
-                <Link className="desktopMenuListItem">Home</Link>
-                <Link className="desktopMenuListItem">About</Link>
-                <Link className="desktopMenuListItem">Portfolio</Link>
-                <Link className="desktopMenuListItem">Contacts</Link>
+                <Link activeClass="active" to="Home" spy={true} smooth={true} duration={500}   className="desktopMenuListItem">Home</Link>
+                <Link activeClass="active" to="About" spy={true} smooth={true} duration={500}   className="desktopMenuListItem">About</Link>
+                <Link activeClass="active" to="Projects" spy={true} smooth={true} duration={500}   className="desktopMenuListItem">Portfolio</Link>
+                <Link activeClass="active" to="Contacts" spy={true} smooth={true} duration={500}   className="desktopMenuListItem">Contacts</Link>
             </div>
         </nav>
     )

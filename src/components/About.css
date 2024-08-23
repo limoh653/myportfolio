@@ -1,4 +1,4 @@
-#about {
+#About {
     overflow: hidden;
     width: 100vw;
     max-width: 65rem;
@@ -14,11 +14,13 @@
     font-weight: 600;
     padding-top: 3rem;
     margin-bottom: 1.5rem;
+    color: yellow;
+    text-align: center;
 }
 skilDesc{
     font-weight: 300;
     font-size: 1rem;
-    
+    max-width: 52rem;
     padding: 0 2rem;
     width: 80%;
 }

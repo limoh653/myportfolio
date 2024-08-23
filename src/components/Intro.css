@@ -1,11 +1,11 @@
-#intro{
+#Home{
     height: calc(100vh-4rem);
     width: 100vw;
     max-width: 75rem;
     margin: 0 auto;
     overflow: hidden;
     position: relative;
-    background-color: blue;
+
 }
 .profile{
     position: absolute;

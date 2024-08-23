@@ -4,7 +4,7 @@ import pprofile from "./Assets/pprofile.jpeg"
 
 const Intro = () => {
     return(
-        <section id="Intr">
+        <section id="Home">
             <div className="introcontent">
                 <span className="hello">Hello  </span>
                 <span className="introText">I'm  <span className="introName">Hesbon<br/></span> A Geospatial Developer</span>
